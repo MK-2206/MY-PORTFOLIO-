@@ -839,6 +839,14 @@ main {
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
+/* Base styles */
+:root {
+  --primary-yellow: #ffdd00; /* Change this color as needed */
+}
+
+.yellow-text {
+  color: var(--primary-yellow); /* Apply the color to text */
+}
 
 .skill-progress-bg {
   background: var(--jet);
